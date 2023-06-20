@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Keep 4 Me
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1) Short Explanation
+Keep 4 Me is a web application developed in React.js that aims to provide users with a note-taking platform similar to Google Keep. The application allows users to create, delete, and manage their personal notes in a convenient and organized manner. It provides a simple and intuitive user interface, making it easy to capture and organize thoughts, reminders, to-do lists, and more.
 
-## Available Scripts
+## 2) Usage Scenarios
+- **Creating a New Note:**
+  1. Launch the application.
+  2. Enter the title, description, due date, teammates, and reminder of the note.
+  3. Click on the "+" button to create the note.
 
-In the project directory, you can run:
+- **Deleting a Note:**
+  1. Launch the application.
+  2. Select the note you want to delete from the list.
+  3. Click on the "Delete" button.
+  4. Confirm the deletion when prompted.
 
-### `npm start`
+- **Accessing About Us Page:**
+  1. Launch the application.
+  2. Click on the "About Us" link located at the top left of the page.
+  3. The application will navigate to the "About Us" page, providing information about the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Accessing Contact Page:**
+  1. Launch the application.
+  2. Click on the "Contact" link located at the top left of the page.
+  3. The application will navigate to the "Contact" page, providing contact information. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Accessing Home Page After:**
+    **In the beginning, you will automatically be in the "Home" page. If you want to go back to the "Home" page, here are the steps:**
+  1. Click on the "Home" link located at the top left of the page.
+  2. The application will navigate to the "Home" page, providing the note taking and already existing notes. 
 
-### `npm test`
+## 3) Project Members and Responsibilities
+- **Kerem Yıldırır:** Sole developer responsible for the entire project.
+- 
+## 4) External Libraries
+The following external libraries were used in this project:
+- **React Router:** Used to implement client-side routing for navigation within the application.
+- **Bootstrap:** Utilized for responsive and mobile-first UI design, providing pre-built CSS components.
+- **Axios:** Employed for making HTTP requests to a backend server to fetch or update data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 5) Instructions for Running the Project
+To run the project locally, follow these steps:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository to your local machine.
+2. Make sure you have the latest Node.js and npm installed.
+3. Open a terminal and navigate to the project's root directory.
+4. Run the following command to install the project dependencies: npm install
+5. After the installation is complete, start the development server: npm start
+6. The project will most likely open by itself. If it didn't, open your web browser and visit `http://localhost:3000` to access the application. 
